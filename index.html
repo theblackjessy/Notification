@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>Frontend Mentor | Notifications page</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+<main class="container">
+  <header>
+    <div class="notif-box">
+      <h3 class="title">Notifications</h3>
+      <span id="notifications"></span> 
+      </div>
+    <p id="mark-all">Mark all as read</p>
+  </header>
+
+  <aside class="notif-card unread">
+    <img src="./assets/images/avatar-mark-webber.webp" alt="avatar">
+    <div class="description">
+      <p class="activity">
+        <strong>Mark Webber</strong> reacted to your recent post <b> My first tournament today!</b>
+      </p>
+      <p class="time">1m ago</p>
+    </div>
+  </aside>
+
+  <aside class="notif-card unread">
+    <img src="./assets/images/whatsapp.jpeg" alt="avatar" style="border-radius: 50%; width:50px; height: 50px;">
+    <div class="description">
+      <p class="activity">
+        <strong>Japheth Jessica</strong> reacted to your recent post <b> Congratulations!</b>
+      </p>
+      <p class="time">3m ago</p>
+    </div>
+  </aside>
+
+  <aside class="notif-card unread">
+    <img src="./assets/images/avatar-jacob-thompson.webp" alt="avatar">
+    <div class="description">
+      <p class="activity">
+        <strong> Jacob Thompson</strong> has joined your group <strong class="link"> Chess Club</strong>
+      </p>
+      <p class="time"> 1 day ago</p>
+    </div>
+  </aside>
+
+  <aside class="notif-card">
+    <div class="message-card">
+      <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="avatar">
+    <div class="description">
+      <p class="activity">
+        <strong>Rizky Hasanuddin</strong>  sent you a private message
+      </p>
+      <p class="time">  5 days ago </p>
+    </div>
+    </div>
+  </aside>
+  <div class="message">
+    <p>
+      Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+      I'm already having lots of fun and improving my game.
+    </p>
+  </div>
+
+  <aside class="notif-card">
+    <img src="./assets/images/avatar-kimberly-smith.webp" alt="avatar">
+    <div class="description">
+      <p class="activity">
+        <strong>Kimberly Smith</strong> commented on your picture
+      </p>
+      <p class="time">1 week ago </p>
+    </div>
+    <img src="./assets/images/image-chess.webp" class="chess">
+  </aside>
+
+  <aside class="notif-card">
+      <img src="./assets/images/avatar-nathan-peterson.webp" alt="avatar">
+    <div class="description">
+      <p class="activity">
+        <strong>Nathan Peterson</strong> reacted to your recent post <b>5 end-game strategies to increase your win rate</b>
+      </p>
+      <p class="time"> 2 weeks ago </p>
+    </div>
+  </aside>
+
+  <aside class="notif-card">
+    <img src="./assets/images/avatar-anna-kim.webp" alt="avatar">
+  <div class="description">
+    <p class="activity">
+      <strong>Anna Kim </strong> left the group <strong class="link">Chess Club</strong>   </p>
+    <p class="time"> 2 weeks ago </p>
+  </div>
+</aside>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
